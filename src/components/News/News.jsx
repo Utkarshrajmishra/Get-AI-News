@@ -4,7 +4,7 @@ import NewsArea from '../NewsArea/NewsArea';
 import { useState } from 'react';
 import config from '../../config/config';
 import geminiService from '../../geminiServices/GeminiServices';
-import { toast } from 'react-toastify';
+
 const News = () => {
   const [news, changeNews] = useState(null);
   const [newsInfo, setInfo] = useState(null);
