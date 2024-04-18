@@ -1,0 +1,14 @@
+.links {
+  border-style: solid;
+  border-width: 0.7px;
+  border-color: #8b8888;
+  width: fit-content;
+}
+
+@media screen and (max-width: 705px) {
+  .cards {
+    .links {
+      width: 90%;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 705px) {
+  .cards {
+    .container {
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 90%;
+    }
+  }
+}
+
+hr {
+  border: 0.3px solid #8b8888;
+  margin-top: 5px;
+}
